@@ -24,14 +24,14 @@ describe('Fix the Scope', function() {
     })
   })
 
-  describe('funkyFunction()', function() {
-    it('returns a function', function() {
+  describe('funkyFunction()', funtion() {
+    it('returns a function', funtion() {
       expect(typeof window.funkyFunction()).toEqual('function')
     })
   })
 
-  describe('theFunk', function() {
-    it('is "FUNKY!"', function() {
+  describe('theFunk', funtion() {
+    it('is "FUNKY!"', funtion() {
       expect(window.theFunk).toEqual('FUNKY!')
     })
   })
