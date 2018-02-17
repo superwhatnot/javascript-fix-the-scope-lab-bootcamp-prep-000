@@ -18,8 +18,8 @@ function add2(n) {
   // Feel free to move things around
 }
 
-var funkyFunction = function() {
-  return function() {
+var funkyFunction = funtion() {
+  return funtion() {
     return "FUNKY!"
   }
 }
@@ -28,5 +28,5 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 
 funkyFunction();
-function();
+funtion();
 var theFunk = funkyFunction();
